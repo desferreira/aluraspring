@@ -1,8 +1,9 @@
-package br.com.alura.forum.config.validacao;
+package br.com.alura.forum.config.validacao.requests;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.alura.forum.config.validacao.requests.ErroDeFormularioDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
