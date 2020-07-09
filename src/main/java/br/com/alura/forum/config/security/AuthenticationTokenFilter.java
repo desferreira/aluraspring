@@ -1,9 +1,8 @@
-package br.com.alura.forum.config.validacao.security;
+package br.com.alura.forum.config.security;
 
 import br.com.alura.forum.models.Usuario;
 import br.com.alura.forum.repositories.UsuarioRepository;
 import br.com.alura.forum.services.TokenService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.filter.OncePerRequestFilter;
